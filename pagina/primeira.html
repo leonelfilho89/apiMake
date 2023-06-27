@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="primCss.css">
+	<script type="text/javascript" src="arquivo.js"></script>
+    <title>Página da Laís</title>
+  </head>
+  <body>
+  
+	<div class="container" id="divAll">
+  
+		<div id="titulo">
+			<p class="titulo text-center font-weight-bold">Marcas disponíveis</p>
+		</div>
+		
+		<form>
+			<div class="container">
+				<div class="row brands">
+					<div class="col-sm" id="btnDior">
+						<button type="button" id="dior" onclick="buscaMarca('dior')" class="btn btn-outline-dark">Dior</button>
+					</div>
+					<div class="col-sm" id="btnLoreal">
+						<button type="button" id="l'oreal" onclick="buscaMarca('l\'oreal')" class="btn btn-outline-dark">L'oreal</button>
+					</div>
+					<div class="col-sm" id="btnClear">
+						<button type="button" id="clear" onclick="clearSearch()" class="btn btn-primary">Limpar busca</button>
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		<div class="container" id="containerOptions">
+			<div class="row options" id="options">
+			</div>
+		</div>
+		
+	</div>
+		
+  </body>
+</html>

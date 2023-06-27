@@ -1,0 +1,22 @@
+body {
+    
+}
+
+p {
+    font-size: 10px;
+	margin-bottom: 0px;
+}
+
+.titulo {
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.brands {
+	margin-bottom: 30px;
+}
+
+.options {
+	width: 25%;
+}
